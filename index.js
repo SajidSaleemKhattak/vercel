@@ -10,7 +10,7 @@ app.listen(3000, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.json({ message: "Hello World" });
 });
 
 app.listen(3000, () => {
